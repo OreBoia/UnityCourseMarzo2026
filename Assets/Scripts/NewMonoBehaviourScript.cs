@@ -8,6 +8,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         // var currentPosition = transform.position; 
         // transform.parent = new GameObject("ciao").transform;
         // transform.parent = null;
+        // gameObject.GetComponent<Transform>();
     }
 
     // Update is called once per frame

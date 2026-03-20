@@ -10,7 +10,7 @@ public class ObjectSpawner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            var instObject = Instantiate(_prefabToSpawn, _spawnPoint.position, Quaternion.identity);
+            var instObject = GameObject.Instantiate(_prefabToSpawn, _spawnPoint.position, Quaternion.identity);
             var instObjectRenderer = instObject.GetComponent<Renderer>();
             instObjectRenderer.material.color = Random.ColorHSV(0f, 1f);
         }

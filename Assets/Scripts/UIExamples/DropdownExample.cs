@@ -15,5 +15,7 @@ public class DropdownExamples: MonoBehaviour
         dropdown.AddOptions(options);
 
         dropdown.options.ForEach((option) => {Debug.Log($"{option.text}");});
+
+        Debug.Log(dropdown.value);
     }
 }
